@@ -7,7 +7,5 @@ target 'OFODemo' do
 
   # Pods for OFODemo
 pod "SnapKit"
-pod "Moya"
-pod "SwiftyJSON"
 
 end
