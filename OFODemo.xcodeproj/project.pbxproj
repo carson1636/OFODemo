@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09A0EA8686B3E1EC742F97AB /* Pods_OFODemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33F080EA96A11618683484E8 /* Pods_OFODemo.framework */; };
 		A90523682006F43F006F2149 /* BottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90523672006F43F006F2149 /* BottomView.swift */; };
 		A905236C200711EE006F2149 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A905236B200711EE006F2149 /* UserViewController.swift */; };
 		A90523752007198D006F2149 /* UserTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90523742007198D006F2149 /* UserTopView.swift */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		33F080EA96A11618683484E8 /* Pods_OFODemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OFODemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EA0E566E1C4C7E7F6922A89 /* Pods-OFODemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OFODemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OFODemo/Pods-OFODemo.debug.xcconfig"; sourceTree = "<group>"; };
 		A90523672006F43F006F2149 /* BottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomView.swift; sourceTree = "<group>"; };
 		A905236B200711EE006F2149 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		A90523742007198D006F2149 /* UserTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTopView.swift; sourceTree = "<group>"; };
@@ -34,6 +37,7 @@
 		A96CD2B120064A4E009C25D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A96CD2B720064E7A009C25D3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		A96CD2BA20065036009C25D3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CD6352182B0543E78D159856 /* Pods-OFODemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OFODemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-OFODemo/Pods-OFODemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,12 +46,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				A96CD2BB20065036009C25D3 /* MapKit.framework in Frameworks */,
+				09A0EA8686B3E1EC742F97AB /* Pods_OFODemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		70C921D95E27F5A6AD7D95A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5EA0E566E1C4C7E7F6922A89 /* Pods-OFODemo.debug.xcconfig */,
+				CD6352182B0543E78D159856 /* Pods-OFODemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A90523642006F40A006F2149 /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +146,7 @@
 				A96CD2A420064A4E009C25D3 /* OFODemo */,
 				A96CD2A320064A4E009C25D3 /* Products */,
 				A96CD2B920065036009C25D3 /* Frameworks */,
+				70C921D95E27F5A6AD7D95A8 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -159,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				A96CD2BA20065036009C25D3 /* MapKit.framework */,
+				33F080EA96A11618683484E8 /* Pods_OFODemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -170,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A96CD2B420064A4E009C25D3 /* Build configuration list for PBXNativeTarget "OFODemo" */;
 			buildPhases = (
+				3A10589C7AE307624DB59AF6 /* [CP] Check Pods Manifest.lock */,
 				A96CD29E20064A4E009C25D3 /* Sources */,
 				A96CD29F20064A4E009C25D3 /* Frameworks */,
 				A96CD2A020064A4E009C25D3 /* Resources */,
+				5685F76EB53A789F8A113F93 /* [CP] Embed Pods Frameworks */,
+				4748179BED9193CF27055CAC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,6 +253,66 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A10589C7AE307624DB59AF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OFODemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4748179BED9193CF27055CAC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OFODemo/Pods-OFODemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5685F76EB53A789F8A113F93 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OFODemo/Pods-OFODemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OFODemo/Pods-OFODemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A96CD29E20064A4E009C25D3 /* Sources */ = {
@@ -381,6 +460,7 @@
 		};
 		A96CD2B520064A4E009C25D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EA0E566E1C4C7E7F6922A89 /* Pods-OFODemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -398,6 +478,7 @@
 		};
 		A96CD2B620064A4E009C25D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD6352182B0543E78D159856 /* Pods-OFODemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
