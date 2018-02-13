@@ -7,5 +7,9 @@ target 'OFODemo' do
 
   # Pods for OFODemo
 pod "SnapKit"
+pod "AMap3DMap"
+pod "AMapSearch"
+pod "AMapLocation"
+pod "AMapNavi"
 
 end

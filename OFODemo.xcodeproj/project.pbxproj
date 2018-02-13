@@ -13,12 +13,13 @@
 		A90523752007198D006F2149 /* UserTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90523742007198D006F2149 /* UserTopView.swift */; };
 		A90523772007199D006F2149 /* UserBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90523762007199D006F2149 /* UserBottomView.swift */; };
 		A905237920071D8F006F2149 /* ConnectPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A905237820071D8F006F2149 /* ConnectPresent.swift */; };
+		A9449D262009184C006C6F04 /* CenterPinAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9449D252009184C006C6F04 /* CenterPinAnnotation.swift */; };
+		A946AFAE200A6DE500DF31BD /* CustomCalloutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A946AFAD200A6DE400DF31BD /* CustomCalloutView.swift */; };
 		A96CD2A620064A4E009C25D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96CD2A520064A4E009C25D3 /* AppDelegate.swift */; };
 		A96CD2AB20064A4E009C25D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96CD2A920064A4E009C25D3 /* Main.storyboard */; };
 		A96CD2AD20064A4E009C25D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A96CD2AC20064A4E009C25D3 /* Assets.xcassets */; };
 		A96CD2B020064A4E009C25D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96CD2AE20064A4E009C25D3 /* LaunchScreen.storyboard */; };
 		A96CD2B820064E7A009C25D3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96CD2B720064E7A009C25D3 /* HomeViewController.swift */; };
-		A96CD2BB20065036009C25D3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A96CD2BA20065036009C25D3 /* MapKit.framework */; };
 		A9B83B8820089BA500DC2CD1 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B83B8720089BA500DC2CD1 /* BaseViewController.swift */; };
 		A9B83B8A20089BCE00DC2CD1 /* SetUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B83B8920089BCE00DC2CD1 /* SetUserViewController.swift */; };
 /* End PBXBuildFile section */
@@ -31,6 +32,8 @@
 		A90523742007198D006F2149 /* UserTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTopView.swift; sourceTree = "<group>"; };
 		A90523762007199D006F2149 /* UserBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBottomView.swift; sourceTree = "<group>"; };
 		A905237820071D8F006F2149 /* ConnectPresent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectPresent.swift; sourceTree = "<group>"; };
+		A9449D252009184C006C6F04 /* CenterPinAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterPinAnnotation.swift; sourceTree = "<group>"; };
+		A946AFAD200A6DE400DF31BD /* CustomCalloutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCalloutView.swift; sourceTree = "<group>"; };
 		A96CD2A220064A4E009C25D3 /* OFODemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OFODemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A96CD2A520064A4E009C25D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A96CD2AA20064A4E009C25D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,9 +41,9 @@
 		A96CD2AF20064A4E009C25D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A96CD2B120064A4E009C25D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A96CD2B720064E7A009C25D3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		A96CD2BA20065036009C25D3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		A9B83B8720089BA500DC2CD1 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		A9B83B8920089BCE00DC2CD1 /* SetUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUserViewController.swift; sourceTree = "<group>"; };
+		A9B83B8D2008A68F00DC2CD1 /* OFODemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OFODemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		CD6352182B0543E78D159856 /* Pods-OFODemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OFODemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-OFODemo/Pods-OFODemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,7 +52,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A96CD2BB20065036009C25D3 /* MapKit.framework in Frameworks */,
 				09A0EA8686B3E1EC742F97AB /* Pods_OFODemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -87,6 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				A90523672006F43F006F2149 /* BottomView.swift */,
+				A9449D252009184C006C6F04 /* CenterPinAnnotation.swift */,
+				A946AFAD200A6DE400DF31BD /* CustomCalloutView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -134,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				A905237820071D8F006F2149 /* ConnectPresent.swift */,
+				A9B83B8D2008A68F00DC2CD1 /* OFODemo-Bridging-Header.h */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -171,7 +176,6 @@
 		A96CD2B920065036009C25D3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A96CD2BA20065036009C25D3 /* MapKit.framework */,
 				33F080EA96A11618683484E8 /* Pods_OFODemo.framework */,
 			);
 			name = Frameworks;
@@ -220,10 +224,11 @@
 				TargetAttributes = {
 					A96CD2A120064A4E009C25D3 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Maps.iOS = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -285,9 +290,14 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OFODemo/Pods-OFODemo-resources.sh",
+				"${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle",
+				"${PODS_ROOT}/AMapNavi/AMapNaviKit.framework/AMapNavi.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMap.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMapNavi.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -324,8 +334,10 @@
 				A90523772007199D006F2149 /* UserBottomView.swift in Sources */,
 				A96CD2A620064A4E009C25D3 /* AppDelegate.swift in Sources */,
 				A905237920071D8F006F2149 /* ConnectPresent.swift in Sources */,
+				A9449D262009184C006C6F04 /* CenterPinAnnotation.swift in Sources */,
 				A9B83B8820089BA500DC2CD1 /* BaseViewController.swift in Sources */,
 				A9B83B8A20089BCE00DC2CD1 /* SetUserViewController.swift in Sources */,
+				A946AFAE200A6DE500DF31BD /* CustomCalloutView.swift in Sources */,
 				A90523752007198D006F2149 /* UserTopView.swift in Sources */,
 				A96CD2B820064E7A009C25D3 /* HomeViewController.swift in Sources */,
 			);
@@ -466,6 +478,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 85G29EJRB3;
 				INFOPLIST_FILE = OFODemo/Info.plist;
@@ -473,6 +486,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Carson.OFODemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OFODemo/Tools/OFODemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -484,6 +499,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 85G29EJRB3;
 				INFOPLIST_FILE = OFODemo/Info.plist;
@@ -491,6 +507,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Carson.OFODemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OFODemo/Tools/OFODemo-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

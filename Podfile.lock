@@ -1,12 +1,31 @@
 PODS:
+  - AMap3DMap (5.6.0):
+    - AMapFoundation (~> 1.4)
+  - AMapFoundation (1.4.2)
+  - AMapLocation (2.5.0):
+    - AMapFoundation (~> 1.4)
+  - AMapNavi (5.4.0):
+    - AMap3DMap (>= 5.6.0)
+    - AMapFoundation (~> 1.4)
+  - AMapSearch (5.5.0):
+    - AMapFoundation (~> 1.4)
   - SnapKit (4.0.0)
 
 DEPENDENCIES:
+  - AMap3DMap
+  - AMapLocation
+  - AMapNavi
+  - AMapSearch
   - SnapKit
 
 SPEC CHECKSUMS:
+  AMap3DMap: 2ac4f9ad7f2f8b015013d8d282c55882bcd68dc9
+  AMapFoundation: 6c0471c9a6a0ad17dad46e3d800ad56ca170f82a
+  AMapLocation: d02bd8c0081b0bc51b2e4cf89925ef57448263c9
+  AMapNavi: 2c1a58663249e4e638031888941513a6be8fefaf
+  AMapSearch: dc9958acfb61b58dcbce79736bf14a39dde7506f
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
 
-PODFILE CHECKSUM: fd44a1a5c156333f5d15a134aa04db705a089ba0
+PODFILE CHECKSUM: 85dab57814dac5c0ef356263c8e5d117f56be8e2
 
 COCOAPODS: 1.4.0.rc.1
